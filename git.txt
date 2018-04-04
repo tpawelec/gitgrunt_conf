@@ -1,0 +1,23 @@
+//Globalna Konfiguracja
+/*
+1.Pobieramy node.js (tylko dla npm-a)
+2.Instalujemy globalnie komendy dla grunta (grunt-cli)
+
+/*
+
+//Tworzenie projektu
+/* 
+1. npm init (tworzymy package.json)
+2. ściagamy sobie grunta do tego projektu (npm install grunt --save-dev)
+3. Tworzymy gruntfile.js z bazową strukturą konfiguracji (baza w materiale)
+
+Grunt już działa, możemy pobierać paczki
+*/
+
+//Ściaganie i używanie tasków
+/*
+1. Pobieramy task (nmp install)
+2. Ładujemy task w gruntfile'u (loadNpmTask)
+3. Konfiguracja tego taska (obiekt initConfig)
+4. Włączenie task (dodajemy wpis w tablicy w registerTask)
+*/
